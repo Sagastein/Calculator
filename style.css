@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(195, 233, 246);
+}
+
+.container{
+    background-color: rgb(19, 20, 75);
+    flex-direction: column;
+    display: flex;
+    margin: auto;
+    width: 30vw;
+    min-width: 300px;
+    height: 40vw;
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+     border-radius: 20px;
+}
+
+.screen{
+    background-color: rgb(255, 255, 255);
+    width: 26.5vw;
+    min-width: 265px;
+    height: 6.5vw;
+    min-height: 125px;
+
+    border-radius: max(1vw,30px);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: max(1vw, 20px);
+    text-align: right;
+}
+
+.history, .output{
+    margin: 1.5vw;
+}
+
+.history {
+    font-size: max(3vw, 30px);
+}
+
+.buttons-grid{
+    margin: 2vw;
+    display: flex;
+    width: 27.5vw;
+    min-width: 275px;
+    height: 20vw;
+    min-height: 200px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn{
+    background-color: rgb(76, 134, 147);
+    text-align: center;
+    font-size: max(2vw,18px);
+    margin: max(0.375vw, 2px);
+    width: 1vw;
+    min-width: 60px;
+    height: 4vw;
+    min-height: 30px;
+    border-radius: max(20px,20px);
+    
+}
+
+.btn-clr, .btn-op{
+    width: 12.9vw;
+    min-width: 129px;
+}
